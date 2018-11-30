@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "15253122045",
+    "firebase_url": "https://showroommobilbooking.firebaseio.com",
+    "project_id": "showroommobilbooking",
+    "storage_bucket": "showroommobilbooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15253122045:android:d1ef855758343a01",
+        "android_client_info": {
+          "package_name": "com.bookingmobil.jeff.bookingmobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15253122045-i4oh4v13rcsppl5fhgvjrhgq43ii6mud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookingmobil.jeff.bookingmobil",
+            "certificate_hash": "bbedf58f01aebf62f1baf6f474d34355856f0159"
+          }
+        },
+        {
+          "client_id": "15253122045-e08gmpfku1g0unk6va6vlum7frdeefq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoG7d5GlffFIC2xDeBoni0qwgSS-nGzG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15253122045-e08gmpfku1g0unk6va6vlum7frdeefq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

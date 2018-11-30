@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailBookingActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_menu_camera"
+            />
+
+        <TextView
+            android:id="@+id/mobil_name"
+            android:layout_below="@id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daihatsu Sigra"
+            android:textStyle="bold"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/mobil_warna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobil_name"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="warna"/>
+
+        <TextView
+            android:id="@+id/mobil_fitur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobil_warna"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Fitur"/>
+
+        <TextView
+            android:id="@+id/mobil_transmisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobil_fitur"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="transmisi"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/showroom_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:text="Showroom Name"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/showroom_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showroom_name"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Showroom Location"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/paket_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:text="Paket"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/paket_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paket_nama"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Harga Paket"/>
+
+
+        <TextView
+            android:id="@+id/paket_overtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paket_harga"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Overtime"/>
+
+        <TextView
+            android:id="@+id/paket_tipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paket_overtime"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:text="Tipe"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_batal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:padding="15dp"
+        android:textColor="@color/onPrimary"
+        android:text="Batalkan Pesanan"/>
+
+</LinearLayout>
